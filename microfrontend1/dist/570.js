@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhome=self.webpackChunkhome||[]).push([[570],{570:(e,t,n)=>{n.r(t),n.d(t,{Calc:()=>c,CalcT:()=>l,default:()=>a});var r=n(985),u=n.n(r);function a(){return u().createElement("div",{className:"text-3xl text-white bg-blue-500 p5 font bold"},"This Header is from Microfrontend 1")}function c(e){return 3*e.number}var l=function(e){return 2*e}}}]);

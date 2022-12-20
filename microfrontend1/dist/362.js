@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhome=self.webpackChunkhome||[]).push([[362],{362:(e,t,n)=>{n.r(t),n.d(t,{default:()=>s});var o=n(985),r=n.n(o);function s(){return r().createElement("div",{className:"text-3xl text-white bg-blue-500 p5 font bold"},"This Footer is from Microfrontend 1")}}}]);
