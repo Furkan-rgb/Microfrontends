@@ -1,12 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: mf1-service
+  name: mf1
 spec:
   type: ClusterIP
+  ports:
+    - port: 80
   selector:
     app: mf1
-  ports:
-    - protocol: TCP
-      port: 80
-      targetPort: 80
