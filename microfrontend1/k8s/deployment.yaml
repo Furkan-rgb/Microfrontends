@@ -13,10 +13,10 @@ spec:
         app: mf1
     spec:
       nodeSelector:
-        "beta.kubernetes.io/os": linux
+        "kubernetes.io/os": linux
       containers:
         - name: mf1
-          image: nginx:latest
+          image: furkanrgb/mf1:latest
           resources:
             requests:
               cpu: 100m
