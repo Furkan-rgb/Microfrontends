@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mf1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mf1
+  template:
+    metadata:
+      labels:
+        app: mf1
+    spec:
+      containers:
+        - name: mf1
+          image: furkanrgb/mf1:latest
+          ports:
+            - containerPort: 3000
+              protocol: TCP
