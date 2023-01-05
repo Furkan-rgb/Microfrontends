@@ -13,7 +13,7 @@ spec:
         app: mf1
     spec:
       nodeSelector:
-        "kubernetes.io/os": linux
+        "kubernetes.io/os": linux/amd64
       containers:
         - name: mf1
           image: furkanrgb/mf1:latest

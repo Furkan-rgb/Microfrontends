@@ -16,3 +16,10 @@ spec:
                 name: mf1
                 port:
                   number: 80
+          - path: /mf2
+            pathType: Prefix
+            backend:
+              service:
+                name: mf2
+                port:
+                  number: 80
