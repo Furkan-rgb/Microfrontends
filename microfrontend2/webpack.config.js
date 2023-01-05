@@ -7,7 +7,7 @@ module.exports = {
     topLevelAwait: true,
   },
   output: {
-    publicPath: "http://localhost:3001/",
+    publicPath: "auto",
   },
 
   resolve: {
@@ -47,7 +47,7 @@ module.exports = {
       name: "microfrontend2",
       filename: "remoteEntry.js",
       remotes: {
-        microfrontend1: "microfrontend1@http://localhost:3000/remoteEntry.js",
+        microfrontend1: "microfrontend1@http://localhost/remoteEntry.js",
       },
       exposes: {},
       shared: {
