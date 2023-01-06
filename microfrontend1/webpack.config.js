@@ -9,9 +9,7 @@ module.exports = {
     minimize: true,
   },
   output: {
-    publicPath: "/",
-    clean: true,
-    pathinfo: false,
+    publicPath: "http://172.16.1.3/mf1/",
   },
 
   resolve: {
