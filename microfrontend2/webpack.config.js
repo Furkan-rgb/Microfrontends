@@ -6,6 +6,11 @@ module.exports = {
   experiments: {
     topLevelAwait: true,
   },
+  cache: false,
+  devtool: false,
+  optimization: {
+    minimize: true,
+  },
   output: {
     publicPath: "auto",
   },
@@ -47,7 +52,7 @@ module.exports = {
       name: "microfrontend2",
       filename: "remoteEntry.js",
       remotes: {
-        microfrontend1: "microfrontend1@http://localhost/remoteEntry.js",
+        microfrontend1: "microfrontend1@http://172.16.1.3/remoteEntry.js",
       },
       exposes: {},
       shared: {
